@@ -1,0 +1,279 @@
+$primary :#4210e6;
+$light :#ceebf6;
+$white : #ffff;
+$danger : #f22000;
+$warning :#e2cd00;
+$error : rgba(227, 17, 17, 0.899);
+$info : #00c0f0;
+$dark : #050500;
+$success : #63b807;
+
+
+
+body{
+
+    overflow: auto !important;
+
+    /* hide scrollbar from the browser ,but while still being able to scroll */
+    .hide-scholler {    
+        ::-webkit-scrollbar {
+            display: none !important;
+        }
+
+    }//hide-scholler close
+
+
+    //wrapper classes
+
+    .wrapper{
+
+        max-width:80% !important;
+        margin:0 auto !important;
+
+
+        
+        .wrapper-auto{
+            max-width:100% !important;
+        }
+
+        .wrapper-25{
+            max-width:25% !important;
+        }
+
+        .wrapper-50{
+            max-width:25% !important;
+        }
+
+        .wrapper-75{
+            max-width:25% !important;
+        }
+
+
+        .wrapper-100{
+            max-width:25% !important;
+        }
+
+
+    }
+    /**
+     * overflow classes
+     * overflow-hidden: 
+
+
+    */
+    .overflow-hidden {
+        overflow: hidden !important;
+    }
+
+    .overflow-x-hidden {
+        overflow-x: hidden !important;
+    }
+
+    .overflow-y-hidden{
+        overflow-y: hidden !important;
+    }
+
+    .overflow-x-auto{
+        overflow-x: auto !important;
+    }
+
+    .overflow-y-auto{
+        overflow-y: auto !important;
+    }
+
+    .overflow-scroll{
+        overflow: scroll;
+    }
+
+    .overflow-auto{
+        overflow:  auto !important;
+    }
+
+    // overflow classess close 
+
+
+    /* =================================================================
+    text decoration */
+
+    .underline{
+        text-decoration: underline !important;
+    }
+    .decoration-none , .underline-none{
+        text-decoration: none !important;
+    }
+    /* text-decoraiotn close */
+
+
+
+    /** text classess
+
+    */
+    
+    .text{
+
+        // text align 
+        .left{
+            text-align: left !important;
+        }
+
+
+        .right{
+            text-align: right !important;
+        }
+
+
+        .center{
+            text-align: center !important;
+        }
+
+
+        .justify{
+            text-align: justify !important;
+        }
+
+
+        // v = vertical alignment
+        .v-align{
+            vertical-align: baseline;
+        }
+
+
+        
+
+        //text transform
+        .uppercase {
+            text-transform: uppercase;
+          }
+          
+        .lowercase {
+            text-transform: lowercase;
+          }
+          
+        .capitalize {
+            text-transform: capitalize;
+          }
+
+
+    }
+
+
+
+
+
+
+    // height and width classes
+
+    .height{
+
+        .height-25{
+            height: 25% !important;
+        } 
+
+
+        .height-50{
+            height: 50% !important;
+        }
+
+
+        .height-75{
+            height: 75% !important;
+        }
+
+
+        .height-100{
+            height: 100% !important;
+        }
+
+
+    }
+
+    .width{
+        .width-25{
+            width: 25% !important;
+        } 
+
+        .width-50{
+            width: 50% !important;
+        }
+
+
+        .width-75{
+            width: 75% !important;
+        }
+
+
+        .width-100{
+            width: 100% !important;
+        }
+
+    }
+
+
+
+
+    /**
+    boxes  is is somthing like button but not a button
+    
+    */
+    .boxs{
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center; 
+        align-items: center;
+        align-content: center;
+        gap:10px;
+        /* border: 1px solid red; */
+        flex-grow: 1;
+
+        .box-normal{
+            text-transform: capitalize !important;
+         color: rgb(22, 3, 40);  
+         background-color: rgb(218, 245, 240);
+         font-size: normal;
+         padding:0.3rem;
+         border-radius:5px;
+         box-shadow: 0px 1px 2px rgba(0, 0, 0, 0.1);
+         margin-top: .2rem;
+        }
+
+        .box-sm{
+            text-transform: capitalize !important;
+            color: rgb(22, 3, 40);  
+            background-color: rgb(218, 245, 240);
+            font-size: small;
+            padding:0.3rem;
+            border-radius:5px;
+            box-shadow: 0px 1px 2px rgba(0, 0, 0, 0.1);
+            margin-top: .2rem;
+        }
+
+        .box-md{
+
+            background: $info;
+
+
+
+        }
+
+        .box-lg{
+            background: $info;
+
+
+
+
+        }
+
+
+
+
+
+    }
+
+
+
+
+
+
+
+
+}//body close 
